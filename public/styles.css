@@ -10,6 +10,7 @@ main{
   width:80%;
   margin:0 auto;
   padding:10px;
+  
 }
 h1{
   color:#d6ebff;
@@ -24,12 +25,12 @@ strong{
 	font-style: italic;
 }
 form{
-	width:35%;
+	width:50%;
 	margin:20px auto;
 }
 
 input[type="text" i]{
-	width:80%;
+	width:70%;
 	height:25px;
 	border-radius: 5px;
 	text-indent: 10px; 
@@ -39,7 +40,6 @@ input[type="submit" i]{
 	color:#dbe6db;
 	font-weight: bold;
 	font-size:1em;
-	height:32px;
 	border:2px solid  #277b31;
 	border-radius: 5px;
 	cursor: pointer;
