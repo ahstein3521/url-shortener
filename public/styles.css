@@ -1,14 +1,22 @@
 body{
-    background-color:#369;
-    text-align: center;
+  background-color:#eae3e3;
+  text-align: center;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+main{
+	background:#369;
+  width:80%;
+  margin:0 auto;
 }
 h1{
-	color:#d6ebff;
-	text-shadow: -2px 3px 2px rgba(4,4,7,.8);
+  color:#d6ebff;
+  text-shadow: -2px 3px 2px rgba(4,4,7,.8);
 }
 p{
-	font-size:1.2em;
-	color: white;
+  font-size:1.2em;
+  color: white;
 }
 strong{
 	color:#4cfb61;
