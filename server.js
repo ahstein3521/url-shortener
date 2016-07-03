@@ -4,13 +4,9 @@ var app=express();
 var exphbs = require('hbs');
 
 
-
-require('./secret');
-
-
 var port=process.env.PORT||3000;
 
-app.use('/',express.static('public'))
+app.use('/',express.static('public'));
 app.use(bodyParser.urlencoded({extended:false}));
 app.set('view engine', 'hbs');
 
