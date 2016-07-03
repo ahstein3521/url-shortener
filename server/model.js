@@ -2,7 +2,7 @@ var mongoose=require('mongoose');
 var Schema=mongoose.Schema;
 var autoIncrement = require('mongoose-auto-increment');
 
-require('../secret');
+//require('../secret'); Uncomment to run on local env
 
 var connect=mongoose.connect(process.env.MONGO_URI);
 
