@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles.css">
+        <title>URL Shortener Microservice</title>
+    </head>
+    <body>
+      <main>
+        <h1>URL Shortener Microservice</h1>
+        <article>
+          <p>
+            To create a new url, either type: <strong>"/new/http://www.YOUR-LINK.com"</strong> <br>directly into your browser,
+            or simply use the text input below.
+          </p>
+        </article>
+        <form action="/new" method="post">
+          <input type="text" name="link"/>
+          <input type="submit" value="Get Link">
+        </form>
+        <div class="results">
+          <p class="link">{{original}}</p>
+          <a href={{link}} target="_blank">{{link}}</a>
+          <p class='Error'>{{error}}</p>
+        <div>
+      </main>
+    <body>    
+</html>
